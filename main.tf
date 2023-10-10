@@ -22,8 +22,6 @@ resource "aws_iam_policy" "policy" {
 }
 
 
-## Iam Role
-
 resource "aws_iam_role" "role" {
   name = "${var.component}-${var.env}-ec2-role"
 
